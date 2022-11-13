@@ -7,7 +7,8 @@
     <item
         android:id="@+id/nav_account"
         android:icon="@drawable/person"
-        android:title="My Account"/>
+        android:title="My Account"
+        />
 
     <item android:id="@+id/records"
         android:icon="@drawable/records_icon"
@@ -17,17 +18,13 @@
         android:icon="@drawable/warranty_icon"
         android:title="Warranties"/>
 
-    <item android:id="@+id/grp_sharing"
-        android:icon="@drawable/grp_icon"
-        android:title="Group Sharing"/>
-
     <item android:id="@+id/invite_friends"
         android:icon="@drawable/invite_icon"
         android:title="Invite Friends"/>
 
-    <item android:id="@+id/follows"
-        android:icon="@drawable/followus_icon"
-        android:title="Follow Us"/>
+    <item android:id="@+id/terms_page"
+        android:icon="@drawable/tandc_icon"
+        android:title="Terms/Conditions"/>
 
 
     <item android:id="@+id/help"
@@ -36,6 +33,7 @@
 
     <item android:id="@+id/logout"
         android:icon="@drawable/logout_icon"
-        android:title="LogOut"/>
+        android:title="LogOut"
+        />
 
 </menu>

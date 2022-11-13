@@ -15,16 +15,29 @@
         <entry key="..\:/Dhavel's_MD_Project_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.20018115942028986" />
         <entry key="..\:/Dhavel's_MD_Project_App/app/src/main/res/layout/header.xml" value="0.10625" />
         <entry key="..\:/Dhavel's_MD_Project_App/app/src/main/res/menu/sidemenu.xml" value="0.2526041666666667" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.121" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.121" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/drawable/tandc_icon.xml" value="0.121" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_bills_fragment.xml" value="0.18" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_fpwd.xml" value="0.27708333333333335" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_help.xml" value="0.27708333333333335" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_homepage.xml" value="0.2140468227424749" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_homepage2.xml" value="0.1984375" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_login.xml" value="0.27708333333333335" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_main.xml" value="0.27708333333333335" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_option_page2.xml" value="0.27708333333333335" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_records_page.xml" value="0.1984375" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_splash_screen.xml" value="0.27708333333333335" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_sub_fragment.xml" value="0.27708333333333335" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/activity_toolbar.xml" value="0.27708333333333335" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/fragment_bills_fragment1.xml" value="0.1984375" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/fragment_sub_fragment1.xml" value="0.1984375" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/main_navigation_drawer.xml" value="0.27708333333333335" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/layout/main_toolbar.xml" value="0.27708333333333335" />
         <entry key="..\:/MD_Project_App/app/src/main/res/menu/nav_menu.xml" value="0.253125" />
-        <entry key="..\:/MD_Project_App/app/src/main/res/menu/navigation_menu.xml" value="0.275" />
+        <entry key="..\:/MD_Project_App/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/MD_Project_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.29" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/MD_Project_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.29" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/MD_Project_App/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2785" />

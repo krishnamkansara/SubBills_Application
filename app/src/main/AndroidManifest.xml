@@ -20,13 +20,10 @@
             android:name=".Nav_help_page"
             android:exported="false" />
         <activity
-            android:name=".Followus_page"
+            android:name=".terms_page"
             android:exported="false" />
         <activity
             android:name=".invite_friends_page"
-            android:exported="false" />
-        <activity
-            android:name=".Grpsharing_page"
             android:exported="false" />
         <activity
             android:name=".Warranty_page"
