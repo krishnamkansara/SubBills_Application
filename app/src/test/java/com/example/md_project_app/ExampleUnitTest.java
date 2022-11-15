@@ -1,7 +1,6 @@
 package com.example.md_project_app;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 /**

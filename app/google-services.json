@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "623212913170",
+    "firebase_url": "https://subbills-default-rtdb.firebaseio.com",
     "project_id": "subbills",
     "storage_bucket": "subbills.appspot.com"
   },

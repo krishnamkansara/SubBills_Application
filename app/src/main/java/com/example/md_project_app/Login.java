@@ -2,7 +2,6 @@ package com.example.md_project_app;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -12,7 +11,6 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -27,7 +25,6 @@ public class Login extends AppCompatActivity {
     private EditText Pwd;
     private Button signinbtn;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +33,9 @@ public class Login extends AppCompatActivity {
         Email=findViewById(R.id.Email);
         Pwd=findViewById(R.id.Pwd);
         signinbtn=findViewById(R.id.signinbtn);
-
         signinbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
 
                 String email = Email.getText().toString();
                 String pass=Pwd.getText().toString();
@@ -53,8 +47,6 @@ public class Login extends AppCompatActivity {
                                 Toast.makeText(Login.this, "Login Successful", Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(Login.this, homepage.class));
                                 finish();
-
-
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override
@@ -70,26 +62,15 @@ public class Login extends AppCompatActivity {
                 }else{
                     Email.setError("Enter valid Emil address");
                 }
-
                 }
-
-
-
-
         });
-
-
         sign_up_link = findViewById(R.id.sign_up_link);
-
         sign_up_link.setOnClickListener(v-> {
             startActivity(new Intent(Login.this, Register.class));
         });
-
         forget_Pwd = findViewById(R.id.forget_Pwd);
-
         forget_Pwd.setOnClickListener(v-> {
             startActivity(new Intent(Login.this, F_Pwd.class));
         });
-
     }
 }

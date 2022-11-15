@@ -1,13 +1,10 @@
 package com.example.md_project_app;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
-
-import com.example.md_project_app.R;
 
 
 public class option_page2 extends AppCompatActivity {

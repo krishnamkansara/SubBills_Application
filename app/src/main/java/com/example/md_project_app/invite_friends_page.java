@@ -1,9 +1,7 @@
 package com.example.md_project_app;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
 public class invite_friends_page extends AppCompatActivity {
 
     @Override

@@ -163,7 +163,6 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/input_style"
         android:ems="10"
-
         android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="#040000"
@@ -203,7 +202,7 @@
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:background="@android:drawable/editbox_background_normal"
+        android:background="@drawable/btn_background"
         android:backgroundTint="#000000"
         android:text="Sign Up"
         android:textColor="#FFFFFF"

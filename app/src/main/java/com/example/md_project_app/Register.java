@@ -2,7 +2,6 @@ package com.example.md_project_app;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,7 +12,6 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -23,7 +21,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,14 +38,12 @@ public class Register extends AppCompatActivity {
 
        super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_register);
-
        auth = FirebaseAuth.getInstance();
         sign_up = findViewById(R.id.sign_up);
         FullName =findViewById(R.id.FullName);
         Email=findViewById(R.id.Email);
         Pwd=findViewById(R.id.Pwd);
         C_Pwd=findViewById(R.id.C_Pwd);
-
         sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,8 +63,6 @@ public class Register extends AppCompatActivity {
                 }
                 if (c_pass.isEmpty()){
                     C_Pwd.setError("C-Password cannot be Empty!");
-
-
                 }
 
                 else {

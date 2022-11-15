@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".homepage"
+    android:background="@drawable/bg"
     tools:ignore="HardcodedText">
 
     <com.google.android.material.navigation.NavigationView
@@ -15,40 +16,135 @@
         android:layout_gravity="start"
         app:menu="@menu/navigation_menu" />
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <com.google.android.material.tabs.TabLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tab_layout">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/bills_tab_btn"
+            android:layout_width="187dp"
             android:layout_height="wrap_content"
-            android:text="Bills Management">
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="210dp"
+            android:background="@drawable/btn_background"
+            android:text="BILLS"
+            android:textColor="@color/white" />
 
-        </com.google.android.material.tabs.TabItem>
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="249dp"
             android:layout_height="wrap_content"
-            android:text="Subscription Management">
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="690dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Bills Management"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
 
-        </com.google.android.material.tabs.TabItem>
+        <Button
+            android:id="@+id/sub_tab_btn"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/btn_background"
+            android:text="SUBSCRIPTION"
+            android:textColor="@color/white" />
 
-    </com.google.android.material.tabs.TabLayout>
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="119dp"
+            android:layout_marginEnd="292dp"
+            android:background="@drawable/btn_background"
+            android:text="CHOOSE FILE"
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/view_pager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/tab_layout">
+            android:textColor="@color/white"
+            android:textSize="12dp" />
 
-        </androidx.viewpager2.widget.ViewPager2>
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="496dp"
+            android:layout_above="@id/progress_bar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="46dp"
+
+            android:layout_marginBottom="16dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_upload"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginBottom="13dp" />
+
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="13dp"
+            android:background="@color/white"
+            android:hint="Enter Bill Id" />
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|center"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/btn_background"
+            android:text="ADD BILL"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/text_view_show_uploads"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/btn_background"
+            android:text="SHOW BILLS"
+            android:textColor="@color/white" />
+
     </RelativeLayout>
-    
 
 </androidx.drawerlayout.widget.DrawerLayout>

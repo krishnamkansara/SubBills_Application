@@ -8,7 +8,6 @@
     android:background="@drawable/bg_top"
     tools:context=".Register">
 
-
     <TextView
         android:id="@+id/forget_Pwd"
         android:layout_width="wrap_content"
@@ -134,13 +133,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Email" />
-    fra
+
 
     <Button
         android:id="@+id/signinbtn"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background_normal"
+        android:background="@drawable/btn_background"
         android:backgroundTint="#000000"
         android:text="Sign In"
         android:textColor="#FFFFFF"

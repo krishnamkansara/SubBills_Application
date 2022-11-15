@@ -12,4 +12,12 @@
         android:text="Subscription Management"
         android:textSize="30dp" />
 
+    <ImageButton
+        android:id="@+id/sub_add_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|end"
+        android:scaleType="fitXY"
+        android:src="@drawable/add_btn2" />
+
 </FrameLayout>
